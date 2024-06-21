@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@250&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body class>
+    <div id="root">
+      <div id="header" class="site-header">
+        <div class="navbar">
+          <div class="container">
+            <a
+              class="navbar-brand"
+              href="https://trax.acrothemes.com/bootstrap-v5/index.html"
+            >
+              <img
+                src="https://trax.acrothemes.com/bootstrap-v5/images/logo.png"
+                alt="logo"
+                style="width: 90px; height: 40.5px"
+              />
+            </a>
+            <div class="collapse">
+              <ul class="navabar-nav">
+                <li id="home-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#home"
+                    >Home</a
+                  >
+                </li>
+                <li id="about-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#about"
+                    >About Us</a
+                  >
+                </li>
+                <li id="pricing-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#pricing"
+                    >Our Pricing</a
+                  >
+                </li>
+                <li id="portfolio-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li id="blog-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#blog"
+                    >Our Blog</a
+                  >
+                  <div class="underline"></div>
+                </li>
+
+                <li id="contact-header" class="nav-item">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/single-index.html#contact"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="social-icons">
+              <li>
+                <a class="icon-header">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 320 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-header">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-header">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <a class="sidebar-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+        <div id="menu" class="side-menu">
+          <div class="overlay"></div>
+          <div class="wrapper">
+            <a id="btn_Navclose" class="btn-close">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                height="33"
+                width="33"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                ></path>
+              </svg>
+            </a>
+            <div class="sidenav">
+              <ul class="navbar-sidenav">
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">Home</a>
+                </li>
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">About Us</a>
+                </li>
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">Our Pricing</a>
+                </li>
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">Portfolio</a>
+                </li>
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">Our Blog</a>
+                </li>
+                <li class="nav-item animate-title">
+                  <a href="" class="nav-item">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidefooter">
+              <ul class="social-icons">
+                <li>
+                  <a
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 320 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 448 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <p>
+                © <span id="year">2019-2023</span> Trax. Made With Love by
+                ThemesIndustry
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="background-container">
+        <div class="bg"></div>
+        <div class="container">
+          <div class="page-title">
+            <h2 id="light-title">Build Your</h2>
+            <h2 id="bold-title">Next Blogging Page</h2>
+            <h2 id="light-title">In Market</h2>
+            <p id="sologan">
+              The Best Multipurpose One Page Template in Market
+            </p>
+            <div class="title-wrap">
+              <div class="title-blog">
+                <h3>Blog 2</h3>
+                <ul class="detail-blog">
+                  <li class="blog-back-home">
+                    <a
+                      >Home
+                      <div class="underline"></div>
+                    </a>
+                  </li>
+                  <li class="current-blog">Blog 2</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="ourblog" class="padding_page">
+        <div class="container">
+          <h2 class="d-none">Blog</h2>
+          <div class="row">
+            <div id="blog" class="col-lg-8">
+              <article class="blog-item blog-space">
+                <div class="image">
+                  <img
+                    src="https://trax.acrothemes.com/bootstrap-v5/images/blogfull1.jpg"
+                    alt="blog"
+                  />
+                </div>
+                <div class="draw-box">
+                  <svg
+                    id="draw"
+                    viewBox="0 0 299 191"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M53.8958 40.2437C155.758 -49.0911 154.794 61.6786 245.293 25.7883C335.793 -10.102 272.633 135.47 271.922 143.96C271.211 152.45 250.813 210.123 189.488 175.757C128.162 141.391 52.3462 203.336 45.0157 162.645C37.6853 121.955 -47.9665 129.579 53.8958 40.2437Z"
+                      stroke="#ffeb3b"
+                      stroke-width="5"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="blog-name">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/blog-detail.html"
+                    >Springtime Color Schemes to Try at Home</a
+                  >
+                </h3>
+                <ul class="comment">
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                        ></path>
+                      </svg>
+                      Jan 8</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 576 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"
+                        ></path>
+                      </svg>
+                      >19</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                        ></path>
+                      </svg>
+                      Emerson</a
+                    >
+                  </li>
+                </ul>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <a class="button">Read more</a>
+              </article>
+              <article class="blog-item blog-space">
+                <div class="image">
+                  <img
+                    src="https://trax.acrothemes.com/bootstrap-v5/images/blogfull2.jpg"
+                    alt="blog"
+                  />
+                </div>
+                <div class="draw-box">
+                  <svg
+                    id="draw"
+                    viewBox="0 0 299 191"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M53.8958 40.2437C155.758 -49.0911 154.794 61.6786 245.293 25.7883C335.793 -10.102 272.633 135.47 271.922 143.96C271.211 152.45 250.813 210.123 189.488 175.757C128.162 141.391 52.3462 203.336 45.0157 162.645C37.6853 121.955 -47.9665 129.579 53.8958 40.2437Z"
+                      stroke="#ffeb3b"
+                      stroke-width="5"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="blog-name">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/blog-detail.html"
+                    >How to Improve Audience Engagement</a
+                  >
+                </h3>
+                <ul class="comment">
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                        ></path>
+                      </svg>
+                      Apr 13</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 576 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"
+                        ></path>
+                      </svg>
+                      4</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                        ></path>
+                      </svg>
+                      Barrett</a
+                    >
+                  </li>
+                </ul>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <a class="button">Read more</a>
+              </article>
+              <article class="blog-item blog-space">
+                <div class="image">
+                  <img
+                    src="https://trax.acrothemes.com/bootstrap-v5/images/blogfull3.jpg"
+                    alt="blog"
+                  />
+                </div>
+                <div class="draw-box">
+                  <svg
+                    id="draw"
+                    viewBox="0 0 299 191"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M53.8958 40.2437C155.758 -49.0911 154.794 61.6786 245.293 25.7883C335.793 -10.102 272.633 135.47 271.922 143.96C271.211 152.45 250.813 210.123 189.488 175.757C128.162 141.391 52.3462 203.336 45.0157 162.645C37.6853 121.955 -47.9665 129.579 53.8958 40.2437Z"
+                      stroke="#ffeb3b"
+                      stroke-width="5"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="blog-name">
+                  <a
+                    href="https://trax.acrothemes.com/bootstrap-v5/blog-detail.html"
+                    >10 Things Your Content Marketing Strategy Must Include</a
+                  >
+                </h3>
+                <ul class="comment">
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                        ></path>
+                      </svg>
+                      Sep 17</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 576 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"
+                        ></path>
+                      </svg>
+                      12</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="space-comment"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 448 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                        ></path>
+                      </svg>
+                      Isabella</a
+                    >
+                  </li>
+                </ul>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <p class="margin-15">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <a class="button">Read more</a>
+              </article>
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link disabled"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 256 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="page-item active"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+                <li class="page-item">
+                  <a class="page-link center"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 256 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <aside>
+                <div class="widget">
+                  <h4 class="text-title-sidebar">search By Keyword</h4>
+                  <form class="widget-search">
+                    <div class="input-group">
+                      <div class="input-group">
+                        <input
+                          type="search"
+                          class="form-control"
+                          placeholder="Search..."
+                          id="search"
+                          required=""
+                          autocomplete="false"
+                        /><button type="submit" class="input-group-addon">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="1em"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="widget">
+                  <h4 class="text-title-sidebar">Recent Post</h4>
+                  <div class="single_post d-table">
+                    <a class="post"
+                      ><img
+                        src="https://trax.acrothemes.com/bootstrap-v5/images/blog-recent-1.jpg"
+                        alt="logo img"
+                        style="width: 50px; height: 50px; border-radius: 360px"
+                    /></a>
+                    <div class="text">
+                      <a>About Invesment Management</a
+                      ><span>September 22,2019</span>
+                    </div>
+                  </div>
+                  <div class="single_post d-table">
+                    <a class="post"
+                      ><img
+                        src="https://trax.acrothemes.com/bootstrap-v5/images/blog-recent-2.jpg"
+                        alt="logo img"
+                        style="width: 50px; height: 50px; border-radius: 360px"
+                    /></a>
+                    <div class="text">
+                      <a>We Conduct Share Holders Meet</a
+                      ><span>September 20,2019</span>
+                    </div>
+                  </div>
+                  <div class="single_post d-table">
+                    <a class="post"
+                      ><img
+                        src="	https://trax.acrothemes.com/bootstrap-v5/images/blog-recent-3.jpg"
+                        alt="logo img"
+                        style="width: 50px; height: 50px; border-radius: 360px"
+                    /></a>
+                    <div class="text">
+                      <a>Create Your bright Future</a
+                      ><span>September 18,2019</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget">
+                  <h4 class="text-title-sidebar">Top Tags</h4>
+                  <ul class="webtags">
+                    <li><a>Books</a></li>
+                    <li><a>Midterm test </a></li>
+                    <li><a>Presentation</a></li>
+                    <li><a>Courses</a></li>
+                    <li><a>Certifications</a></li>
+                    <li><a>Teachers</a></li>
+                    <li><a>Student Life</a></li>
+                    <li><a>Study</a></li>
+                    <li><a>Midterm test </a></li>
+                    <li><a>Presentation</a></li>
+                    <li><a>Courses</a></li>
+                  </ul>
+                </div>
+                <div class="widget">
+                  <h4 class="text-title-sidebar">Categories</h4>
+                  <ul class="webcats">
+                    <li><a>Books</a><span>23</span></li>
+                    <li><a>Midterm test </a><span>09</span></li>
+                    <li><a>Presentation </a><span>11</span></li>
+                    <li><a>Courses </a><span>13</span></li>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
